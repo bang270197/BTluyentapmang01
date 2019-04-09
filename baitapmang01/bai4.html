@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a =parseInt(prompt("Nhap so phan tu"));
+    let arr=[];
+    let b="";
+    for(i=0;i<a;i++)
+    {
+        arr[i]=parseInt(prompt("Gia tri phan tu"));
+    }
+
+    for(i=arr.length-1;i>=0;i--)
+    {
+       b=b+arr[i]+" ";
+    }
+    document.write("dau duoc dao nguoc "+b);
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let arr=[];
+    let arr1=[];
+    let arr2=[20];
+    let a=prompt("Nhap so luong phan tu trong mang");
+    for (i=0;i<a;i++)
+    {
+        arr[i]=prompt("Nhap gi tri cho mang thu nhat o vi tri thu "+i);
+    }
+    for (j=0;j<a;j++)
+    {
+        arr1[j]=prompt("Nhap gi tri cho mang thu hai o vi tri thu "+j);
+    }
+    arr2=arr.concat(arr1);
+    document.write("Cac phan tu duoc noi la "+arr2);
+</script>
+</body>
+</html>
